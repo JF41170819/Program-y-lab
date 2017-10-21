@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    interface IAFIP
+    public interface IAFIP
     {
         double CalcularImpuesto();
+
+        
     }
+
 }

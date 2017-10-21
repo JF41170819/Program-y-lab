@@ -10,9 +10,9 @@ namespace Entidades
     {
         protected double _precio;
 
-        protected abstract double Precio
+        protected double Precio
         {
-            get;
+            get { return this._precio; }
         }
         public void MostrarPrecio()
         {

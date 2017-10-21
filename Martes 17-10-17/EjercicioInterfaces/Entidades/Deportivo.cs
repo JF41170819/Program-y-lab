@@ -6,18 +6,25 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    class Deportivo:Auto,IAFIP
+    class Deportivo:Auto,IAFIP,IARBA
     {
         protected int _caballosFuerza;
-
+        
         public Deportivo(double precio, string patente, int hp)
-            : base(precio, patente)
+            :base(precio,patente)
         {
             this._caballosFuerza = hp;
         }
-        private double CalcularImpuesto()
+        double  IAFIP.CalcularImpuesto()
         {
-            return this._precio * 1.28;
+            return base.Precio * 1.28;
         }
+
+        double IARBA.CalcularImpuesto()
+        {
+            return base.Precio * 1.23;
+        }
+
+
     }
 }

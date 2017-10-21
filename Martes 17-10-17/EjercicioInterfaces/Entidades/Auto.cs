@@ -10,10 +10,6 @@ namespace Entidades
     {
         protected string _patente;
 
-        public abstract Patente
-        {
-            get;
-        }
         public Auto(double precio, string patente):base(precio)
         {
             this._patente = patente;

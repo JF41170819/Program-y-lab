@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    public class Comercial: Avion
+    public class Comercial: Avion,IARBA
     {
         protected int _capacidadPasajeros;
 
@@ -14,6 +14,11 @@ namespace Entidades
             : base(precio, velocidad)
         {
             this._capacidadPasajeros = pasajeros;
+        }
+
+        double IARBA.CalcularImpuesto()
+        {
+            return base.Precio * 1.25;
         }
     }
 }

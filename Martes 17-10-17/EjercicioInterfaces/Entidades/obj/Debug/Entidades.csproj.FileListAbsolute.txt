@@ -1,0 +1,6 @@
+C:\Users\Tomas y Lucas\Desktop\Juegos y descargas\Curso lucas it\Facultad\Laboratorio 2\Github\Program-y-lab\Martes 17-10-17\EjercicioInterfaces\Entidades\bin\Debug\Entidades.dll
+C:\Users\Tomas y Lucas\Desktop\Juegos y descargas\Curso lucas it\Facultad\Laboratorio 2\Github\Program-y-lab\Martes 17-10-17\EjercicioInterfaces\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Tomas y Lucas\Desktop\Juegos y descargas\Curso lucas it\Facultad\Laboratorio 2\Github\Program-y-lab\Martes 17-10-17\EjercicioInterfaces\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\Tomas y Lucas\Desktop\Juegos y descargas\Curso lucas it\Facultad\Laboratorio 2\Github\Program-y-lab\Martes 17-10-17\EjercicioInterfaces\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Tomas y Lucas\Desktop\Juegos y descargas\Curso lucas it\Facultad\Laboratorio 2\Github\Program-y-lab\Martes 17-10-17\EjercicioInterfaces\Entidades\obj\Debug\Entidades.dll
+C:\Users\Tomas y Lucas\Desktop\Juegos y descargas\Curso lucas it\Facultad\Laboratorio 2\Github\Program-y-lab\Martes 17-10-17\EjercicioInterfaces\Entidades\obj\Debug\Entidades.pdb

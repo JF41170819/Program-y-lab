@@ -8,7 +8,12 @@ namespace Entidades
 {
     public static class Gestion
     {
-        public double MostrarImpuestoNacional(IAFIP bienPunible)
+        public static double MostrarImpuestoNacional(IAFIP bienPunible)
+        {
+            return bienPunible.CalcularImpuesto();
+        }   
+
+        public static double MostrarImpuestoProvincial(IARBA bienPunible)
         {
             return bienPunible.CalcularImpuesto();
         }
