@@ -1,0 +1,8 @@
+D:\Mis Documentos\Visual Studio 2012\Projects\19 Clase\test consola\bin\Debug\test consola.exe.config
+D:\Mis Documentos\Visual Studio 2012\Projects\19 Clase\test consola\bin\Debug\test consola.exe
+D:\Mis Documentos\Visual Studio 2012\Projects\19 Clase\test consola\bin\Debug\test consola.pdb
+D:\Mis Documentos\Visual Studio 2012\Projects\19 Clase\test consola\bin\Debug\ClassLibrary5.dll
+D:\Mis Documentos\Visual Studio 2012\Projects\19 Clase\test consola\bin\Debug\ClassLibrary5.pdb
+D:\Mis Documentos\Visual Studio 2012\Projects\19 Clase\test consola\obj\Debug\test consola.csprojResolveAssemblyReference.cache
+D:\Mis Documentos\Visual Studio 2012\Projects\19 Clase\test consola\obj\Debug\test consola.exe
+D:\Mis Documentos\Visual Studio 2012\Projects\19 Clase\test consola\obj\Debug\test consola.pdb

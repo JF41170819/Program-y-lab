@@ -1,0 +1,12 @@
+D:\Mis Documentos\Visual Studio 2012\Projects\19 Clase\Formulario\bin\Debug\Formulario.exe.config
+D:\Mis Documentos\Visual Studio 2012\Projects\19 Clase\Formulario\obj\Debug\Formulario.csprojResolveAssemblyReference.cache
+D:\Mis Documentos\Visual Studio 2012\Projects\19 Clase\Formulario\obj\Debug\Formulario.Form1.resources
+D:\Mis Documentos\Visual Studio 2012\Projects\19 Clase\Formulario\obj\Debug\Formulario.Properties.Resources.resources
+D:\Mis Documentos\Visual Studio 2012\Projects\19 Clase\Formulario\obj\Debug\Formulario.csproj.GenerateResource.Cache
+D:\Mis Documentos\Visual Studio 2012\Projects\19 Clase\Formulario\bin\Debug\Formulario.exe
+D:\Mis Documentos\Visual Studio 2012\Projects\19 Clase\Formulario\bin\Debug\Formulario.pdb
+D:\Mis Documentos\Visual Studio 2012\Projects\19 Clase\Formulario\bin\Debug\ClassLibrary5.dll
+D:\Mis Documentos\Visual Studio 2012\Projects\19 Clase\Formulario\bin\Debug\ClassLibrary5.pdb
+D:\Mis Documentos\Visual Studio 2012\Projects\19 Clase\Formulario\obj\Debug\Formulario.exe
+D:\Mis Documentos\Visual Studio 2012\Projects\19 Clase\Formulario\obj\Debug\Formulario.pdb
+D:\Mis Documentos\Visual Studio 2012\Projects\19 Clase\Formulario\obj\Debug\Formulario.Form2.resources

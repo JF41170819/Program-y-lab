@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "ClassLibrary5\Entidades.csproj", "{0196DADE-5CEC-431E-BEA4-473849809C70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test consola", "test consola\test consola.csproj", "{EE892FF2-E301-4EDF-9C3B-44EA73AD4A51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Formulario", "Formulario\Formulario.csproj", "{D7C0E18B-CC0C-48EC-8BAF-868542726C9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0196DADE-5CEC-431E-BEA4-473849809C70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0196DADE-5CEC-431E-BEA4-473849809C70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0196DADE-5CEC-431E-BEA4-473849809C70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0196DADE-5CEC-431E-BEA4-473849809C70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE892FF2-E301-4EDF-9C3B-44EA73AD4A51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE892FF2-E301-4EDF-9C3B-44EA73AD4A51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE892FF2-E301-4EDF-9C3B-44EA73AD4A51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE892FF2-E301-4EDF-9C3B-44EA73AD4A51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7C0E18B-CC0C-48EC-8BAF-868542726C9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7C0E18B-CC0C-48EC-8BAF-868542726C9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7C0E18B-CC0C-48EC-8BAF-868542726C9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7C0E18B-CC0C-48EC-8BAF-868542726C9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

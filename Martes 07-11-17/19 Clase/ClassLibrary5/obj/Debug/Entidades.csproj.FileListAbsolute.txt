@@ -1,0 +1,5 @@
+D:\Mis Documentos\Visual Studio 2012\Projects\19 Clase\ClassLibrary5\bin\Debug\ClassLibrary5.dll
+D:\Mis Documentos\Visual Studio 2012\Projects\19 Clase\ClassLibrary5\bin\Debug\ClassLibrary5.pdb
+D:\Mis Documentos\Visual Studio 2012\Projects\19 Clase\ClassLibrary5\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+D:\Mis Documentos\Visual Studio 2012\Projects\19 Clase\ClassLibrary5\obj\Debug\ClassLibrary5.dll
+D:\Mis Documentos\Visual Studio 2012\Projects\19 Clase\ClassLibrary5\obj\Debug\ClassLibrary5.pdb
