@@ -1,0 +1,9 @@
+D:\Mis Documentos\Visual Studio 2012\Projects\Miercoles 08-11-17\FRM_Calculadora\bin\Debug\FRM_Calculadora.exe.config
+D:\Mis Documentos\Visual Studio 2012\Projects\Miercoles 08-11-17\FRM_Calculadora\bin\Debug\FRM_Calculadora.exe
+D:\Mis Documentos\Visual Studio 2012\Projects\Miercoles 08-11-17\FRM_Calculadora\bin\Debug\FRM_Calculadora.pdb
+D:\Mis Documentos\Visual Studio 2012\Projects\Miercoles 08-11-17\FRM_Calculadora\obj\Debug\FRM_Calculadora.csprojResolveAssemblyReference.cache
+D:\Mis Documentos\Visual Studio 2012\Projects\Miercoles 08-11-17\FRM_Calculadora\obj\Debug\FRM_Calculadora.Form1.resources
+D:\Mis Documentos\Visual Studio 2012\Projects\Miercoles 08-11-17\FRM_Calculadora\obj\Debug\FRM_Calculadora.Properties.Resources.resources
+D:\Mis Documentos\Visual Studio 2012\Projects\Miercoles 08-11-17\FRM_Calculadora\obj\Debug\FRM_Calculadora.csproj.GenerateResource.Cache
+D:\Mis Documentos\Visual Studio 2012\Projects\Miercoles 08-11-17\FRM_Calculadora\obj\Debug\FRM_Calculadora.exe
+D:\Mis Documentos\Visual Studio 2012\Projects\Miercoles 08-11-17\FRM_Calculadora\obj\Debug\FRM_Calculadora.pdb
