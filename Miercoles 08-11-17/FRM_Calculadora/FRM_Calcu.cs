@@ -1,12 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
+using Entidades;
 
 namespace FRM_Calculadora
 {
@@ -26,8 +21,6 @@ namespace FRM_Calculadora
         {
             this.Name = "Calculadora";
             txtDisplay.ReadOnly = true;
-      
-
             foreach (Control i in panelNumeros.Controls)
             {
                 i.Click += new EventHandler(ManejadorCentral);
@@ -40,6 +33,7 @@ namespace FRM_Calculadora
             //PARTE QUE ENTRA POR PRIMERA VEZ
             if (flag == 0)
             {
+                txtDisplay.Clear();
                 foreach (Control i in this.panelNumeros.Controls)
                 {
                     if (sender == i)
@@ -105,33 +99,25 @@ namespace FRM_Calculadora
                 if (sender == btnCalcular)
                 {
                     numDos = int.Parse(txtDisplay.Text);
-                    int resultado=0;
-                    switch (operacion)
-                    {
-                        case "+":
-                            resultado=numUno+numDos;
-                            break;
-                        case "-":
-                            resultado=numUno-numDos;
-                            break;
-                        case "/":
-                            resultado=numUno/numDos;
-                            break;
-                        case "*":
-                            resultado = numUno * numDos;
-                            break;
-                    }           
                     txtDisplay.Clear();
-                    txtDisplay.Text = resultado.ToString();
-                    foreach (Control i in this.panelNumeros.Controls)
+                    txtDisplay.Text = Calculadora.del.Invoke(numUno, numDos, operacion).ToString();
+
+                    foreach (Control i in panelNumeros.Controls)
                     {
                         i.Click -= new EventHandler(ManejadorCentral);
                     }
-                    foreach (Control i in this.panelOperaciones.Controls)
+                    foreach (Control i in panelOperaciones.Controls)
                     {
                         i.Click -= new EventHandler(ManejadorCentral);
                     }
+
+                    btnLimpiar.Click += new EventHandler(ManejadorCentral);
+                    StreamWriter sw = new StreamWriter("Texto.txt", true);
+                    sw.WriteLine(DateTime.Now.ToString() + Environment.NewLine + "Operacion: " + Environment.NewLine + this.numUno.ToString() + operacion + this.numDos.ToString() + "=" + txtDisplay.Text + Environment.NewLine);
+                    sw.Close();
                     flag = 4;
+
+
 
                 }
                 else
@@ -146,17 +132,22 @@ namespace FRM_Calculadora
 
                     }
                 }
-                
+
+
 
             }
             else if (flag == 4)
             {
-                if (sender == btnLimpiar)
+                txtDisplay.Clear();
+                btnLimpiar.Click -= new EventHandler(ManejadorCentral);
+                foreach (Control i in panelNumeros.Controls)
                 {
-                    txtDisplay.Clear();
+                    i.Click += new EventHandler(ManejadorCentral);
                 }
-                
+                flag = 0;
+
             }
+
 
         }
     }
