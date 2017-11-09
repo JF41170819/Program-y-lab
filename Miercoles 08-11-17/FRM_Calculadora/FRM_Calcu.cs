@@ -20,6 +20,7 @@ namespace FRM_Calculadora
         private void Form1_Load(object sender, EventArgs e)
         {
             this.Name = "Calculadora";
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
             txtDisplay.ReadOnly = true;
             foreach (Control i in panelNumeros.Controls)
             {
@@ -101,7 +102,7 @@ namespace FRM_Calculadora
                     numDos = int.Parse(txtDisplay.Text);
                     txtDisplay.Clear();
                     txtDisplay.Text = Calculadora.del.Invoke(numUno, numDos, operacion).ToString();
-
+                   
                     foreach (Control i in panelNumeros.Controls)
                     {
                         i.Click -= new EventHandler(ManejadorCentral);
@@ -115,9 +116,8 @@ namespace FRM_Calculadora
                     StreamWriter sw = new StreamWriter("Texto.txt", true);
                     sw.WriteLine(DateTime.Now.ToString() + Environment.NewLine + "Operacion: " + Environment.NewLine + this.numUno.ToString() + operacion + this.numDos.ToString() + "=" + txtDisplay.Text + Environment.NewLine);
                     sw.Close();
+                    btnCalcular.Click -= new EventHandler(ManejadorCentral);
                     flag = 4;
-
-
 
                 }
                 else
@@ -138,8 +138,9 @@ namespace FRM_Calculadora
             }
             else if (flag == 4)
             {
-                txtDisplay.Clear();
+                
                 btnLimpiar.Click -= new EventHandler(ManejadorCentral);
+                txtDisplay.Clear();
                 foreach (Control i in panelNumeros.Controls)
                 {
                     i.Click += new EventHandler(ManejadorCentral);

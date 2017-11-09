@@ -152,9 +152,9 @@
             // 
             // btnCalcular
             // 
-            this.btnCalcular.Location = new System.Drawing.Point(3, 162);
+            this.btnCalcular.Location = new System.Drawing.Point(3, 169);
             this.btnCalcular.Name = "btnCalcular";
-            this.btnCalcular.Size = new System.Drawing.Size(127, 39);
+            this.btnCalcular.Size = new System.Drawing.Size(180, 39);
             this.btnCalcular.TabIndex = 11;
             this.btnCalcular.Text = "=";
             this.btnCalcular.UseVisualStyleBackColor = true;
@@ -234,7 +234,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(230, 217);
+            this.ClientSize = new System.Drawing.Size(190, 217);
             this.Controls.Add(this.txtDisplay);
             this.Controls.Add(this.btnCalcular);
             this.Controls.Add(this.btnLimpiar);
