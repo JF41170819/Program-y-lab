@@ -1,6 +1,0 @@
-D:\Mis Documentos\Visual Studio 2012\Projects\Ejerc_1\Entidades\bin\Debug\Entidades.dll
-D:\Mis Documentos\Visual Studio 2012\Projects\Ejerc_1\Entidades\bin\Debug\Entidades.pdb
-D:\Mis Documentos\Visual Studio 2012\Projects\Ejerc_1\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
-D:\Mis Documentos\Visual Studio 2012\Projects\Ejerc_1\Entidades\obj\Debug\Entidades.dll
-D:\Mis Documentos\Visual Studio 2012\Projects\Ejerc_1\Entidades\obj\Debug\Entidades.pdb
-D:\Mis Documentos\Visual Studio 2012\Projects\Ejerc_1\Entidades\bin\Debug\Entidades.dll.config

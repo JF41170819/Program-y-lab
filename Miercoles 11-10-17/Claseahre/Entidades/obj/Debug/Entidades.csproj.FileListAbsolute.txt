@@ -1,4 +1,0 @@
-D:\Mis Documentos\Visual Studio 2012\Projects\Claseahre\Entidades\bin\Debug\Entidades.dll
-D:\Mis Documentos\Visual Studio 2012\Projects\Claseahre\Entidades\bin\Debug\Entidades.pdb
-D:\Mis Documentos\Visual Studio 2012\Projects\Claseahre\Entidades\obj\Debug\Entidades.dll
-D:\Mis Documentos\Visual Studio 2012\Projects\Claseahre\Entidades\obj\Debug\Entidades.pdb
