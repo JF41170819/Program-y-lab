@@ -20,7 +20,9 @@ namespace frmPrincipal
 
         private void btnActualizar_Click(object sender, EventArgs e)
         {
-            foreach (Form i in Application.OpenForms)
+            ((frmPrincipal)this.Owner).delNombre(txtNombre.Text);
+            ((frmPrincipal)this.Owner).delFoto(this._path);
+            /*foreach (Form i in Application.OpenForms)
             {
                  if(i is frmDatos)
                 {
@@ -30,7 +32,7 @@ namespace frmPrincipal
                     delFoto.Invoke(this._path);
                     break;
                 }
-            }
+            }*/
         }
 
         private void ConfigurarOpenSaveFileDialog()

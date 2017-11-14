@@ -1,5 +1,5 @@
 ﻿using Entidades;
 using System;
-delegate void actualizarNombrePorDelegado(string message);
-delegate void actualizarFotoPorDelegado(string path);
-delegate void actualizarAlumno(Alumno alum, EventArgs evento);
+public delegate void actualizarNombrePorDelegado(string message);
+public delegate void actualizarFotoPorDelegado(string path);
+public delegate void actualizarAlumno(Alumno alum, EventArgs evento);

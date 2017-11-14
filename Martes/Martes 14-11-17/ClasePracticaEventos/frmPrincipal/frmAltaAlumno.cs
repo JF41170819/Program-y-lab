@@ -21,7 +21,8 @@ namespace frmPrincipal
         private void btnAceptar_Click(object sender, EventArgs e)
         {
             Alumno al = new Alumno(txtNombre.Text, txtApellido.Text, int.Parse(txtDni.Text),@txtFoto.Text);
-            foreach (Form i in Application.OpenForms)
+            ((frmPrincipal)this.Owner).delAlumno(al,e);
+          /*  foreach (Form i in Application.OpenForms)
             {
                 if(i is frmDatosAlumno)
                 {
@@ -30,7 +31,7 @@ namespace frmPrincipal
                     
                     break;
                 }
-            }
+            }*/
         }
 
         private void txtFoto_DoubleClick(object sender, EventArgs e)

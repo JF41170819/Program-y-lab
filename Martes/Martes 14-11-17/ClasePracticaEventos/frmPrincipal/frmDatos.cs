@@ -18,6 +18,7 @@ namespace frmPrincipal
         }
         public void ActualizarNombre(string nombre)
         {
+          
             lblNombre.Text = nombre;
         }
         public void ActualizarFoto(string path)
